@@ -1,15 +1,16 @@
-FileFormats Extension - testing
-============================
-.. .. image:: https://github.com/arcanaframework/arcana-xnat/actions/workflows/tests.yml/badge.svg
-..    :target: https://github.com/arcanaframework/arcana-xnat/actions/workflows/tests.yml
-.. .. image:: https://codecov.io/gh/arcanaframework/arcana-xnat/branch/main/graph/badge.svg?token=UIS0OGPST7
-..    :target: https://codecov.io/gh/arcanaframework/arcana-xnat
-.. .. image:: https://readthedocs.org/projects/arcana/badge/?version=latest
-..  :target: http://arcana.readthedocs.io/en/latest/?badge=latest
-..   :alt: Documentation Status
+FileFormats Extension - Testing
+===============================
+.. image:: https://github.com/arcanaframework/fileformats-testing/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/arcanaframework/fileformats-testing/actions/workflows/tests.yml
+.. image:: https://codecov.io/gh/arcanaframework/fileformats-testing/branch/main/graph/badge.svg?token=UIS0OGPST7
+    :target: https://codecov.io/gh/arcanaframework/fileformats-testing
+.. image:: https://readthedocs.org/projects/fileformats/badge/?version=latest
+    :target: http://arcana.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
-This is a template for an extension module to the
+This is an extension module for the
 [fileformats](https://github.com/ArcanaFramework/fileformats-core) package.
+containing simple cases for use in testing the core package.
 
 
 Quick Installation
