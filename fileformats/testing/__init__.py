@@ -9,7 +9,7 @@ class Y(File):
     ext = ".y"
 
 
-class Xyz(WithSideCar):
+class Xy(WithSideCar, File):
 
     ext = ".x"
     side_car_type = Y
