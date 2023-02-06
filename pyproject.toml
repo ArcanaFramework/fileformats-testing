@@ -3,22 +3,23 @@ requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "fileformats-TODO"
-description = "Classes for representing different file formats in Python classes for use in type hinting in data workflows"
+name = "fileformats-testing"
+description = "Dummy classes for testing the 'fileformats' package"
 readme = "README.rst"
 requires-python = ">=3.7"
 dependencies = [
-    "fileformats >= 0.4"
+    "fileformats >= 0.3.3"
 ]
 license = {file = "LICENSE"}
 authors = [
-    {name = "TODO:YOUR-NAME", email = "TODO:YOUR-EMAIL"},
+    {name = "Thomas G. Close", email = "tom.g.close@gmail.com"},
 ]
 maintainers = [
-    {name = "TODO:YOUR-NAME", email = "TODO:YOUR-EMAIL"},
+    {name = "Thomas G. Close", email = "tom.g.close@gmail.com"},
 ]
 keywords = [
     "file formats",
+    "file types",
     "data",
 ]
 classifiers = [
@@ -58,20 +59,21 @@ converters = [
 ]
 
 [project.urls]
-repository = "https://github.com/ArcanaFramework/fileformats-TODO"
+repository = "https://github.com/ArcanaFramework/fileformats-testing"
 
 [tool.hatch.version]
 source = "vcs"
 
 [tool.hatch.build.hooks.vcs]
-version-file = "fileformats/TODO/_version.py"
+version-file = "fileformats/testing/_version.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["fileformats"]
 
 [tool.black]
+line-length = 88
 target-version = ['py38']
-exclude = "fileformats/TODO/_version.py"
+exclude = "fileformats/testing/_version.py"
 
 [tool.codespell]
 ignore-words = ".codespell-ignorewords"
