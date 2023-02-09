@@ -13,6 +13,6 @@ from .headers import (
     ImageWithHeader,
     EncodedText,
 )
-from .qualifers import A, B, C, D, E, F, G, H, J, K, L, M, N, AnyDataType, TestField
+from .qualifers import A, B, C, D, E, F, G, H, J, K, L, M, N, TestField
 
 import_converters(__name__)

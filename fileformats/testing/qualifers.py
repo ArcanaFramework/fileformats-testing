@@ -6,9 +6,6 @@ from fileformats.field import Singluar
 from fileformats.core.mixin import WithQualifiers
 
 
-AnyDataType = DataType.type_var("AnyDataType")
-
-
 class FileClassifier(DataType):
     pass
 
