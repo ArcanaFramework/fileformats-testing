@@ -84,3 +84,9 @@ class N(WithQualifiers, File):
 class TestField(Singluar):
 
     value: ty.Any
+
+
+class P(WithQualifiers, File):
+    ext = ".p"
+    qualifiers_attr_name = "content_types"
+    content_types = ()
