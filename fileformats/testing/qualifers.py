@@ -1,4 +1,4 @@
-\import typing as ty
+import typing as ty
 import attrs
 from fileformats.core import DataType
 from fileformats.generic import File
