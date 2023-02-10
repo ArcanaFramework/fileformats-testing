@@ -1,12 +1,5 @@
 FileFormats Extension - Testing
 ===============================
-.. image:: https://github.com/arcanaframework/fileformats-testing/actions/workflows/tests.yml/badge.svg
-    :target: https://github.com/arcanaframework/fileformats-testing/actions/workflows/tests.yml
-.. image:: https://codecov.io/gh/arcanaframework/fileformats-testing/branch/main/graph/badge.svg?token=UIS0OGPST7
-    :target: https://codecov.io/gh/arcanaframework/fileformats-testing
-.. image:: https://readthedocs.org/projects/fileformats/badge/?version=latest
-    :target: http://arcana.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
 
 This is an extension module for the
 [fileformats](https://github.com/ArcanaFramework/fileformats-core) package.
