@@ -1,6 +1,5 @@
 from ._version import __version__
-from fileformats.core import import_converters
-
+from .basic import Foo, Bar, Baz, Qux
 from .headers import (
     Y,
     Xy,
@@ -13,6 +12,4 @@ from .headers import (
     ImageWithHeader,
     EncodedText,
 )
-from .qualifers import A, B, C, D, E, F, G, H, J, K, L, M, N, P, TestField
-
-import_converters(__name__)
+from .qualifers import A, B, C, D, E, F, G, H, J, K, L, M, N, P, Q, R, TestField

@@ -64,7 +64,8 @@ class L(WithQualifiers, File):
 
     ext = ".l"
     qualifiers_attr_name = "new_qualifiers_attr"
-    # MISSING default value for "new_qualifiers_attr"
+    new_qualifiers_attr = ()
+    ordered_qualifiers = True
 
 
 class M(WithQualifiers, File):
@@ -90,3 +91,17 @@ class P(WithQualifiers, File):
     ext = ".p"
     qualifiers_attr_name = "content_types"
     content_types = ()
+
+
+class Q(WithQualifiers, File):
+    ext = ".z"
+    qualifiers_attr_name = "new_qualifiers_attr"
+    # MISSING default value for "new_qualifiers_attr"
+
+
+class R(WithQualifiers, File):
+
+    ext = ".r"
+    qualifiers_attr_name = "new_qualifiers_attr"
+    new_qualifiers_attr = ()
+    ordered_qualifiers = True
