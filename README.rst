@@ -2,7 +2,7 @@ FileFormats Extension - Testing
 ===============================
 
 This package is an extension module to
-[fileformats](https://github.com/ArcanaFramework/fileformats) package.
+`fileformats package <https://github.com/ArcanaFramework/fileformats>`_.
 containing simple cases for use in testing the core package.
 
 
