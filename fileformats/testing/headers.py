@@ -1,16 +1,20 @@
 from fileformats.generic import File
 from fileformats.serialization import Json
-from fileformats.core.mixin import WithSideCar, WithSeparateHeader
+from fileformats.core.mixin import WithSideCars, WithSeparateHeader
 
 
 class Y(File):
     ext = ".y"
 
 
-class Xy(WithSideCar, File):
+class Z(File):
+    ext = ".z"
+
+
+class Xyz(WithSideCars, File):
 
     ext = ".x"
-    side_car_type = Y
+    side_car_types = (Y, Z)
 
 
 class MyFormat(File):
@@ -23,9 +27,9 @@ class MyFormatGz(MyFormat):
     ext = ".my.gz"
 
 
-class MyFormatX(WithSideCar, MyFormat):
+class MyFormatX(WithSideCars, MyFormat):
 
-    side_car_type = Json
+    side_car_types = (Json,)
 
 
 class YourFormat(File):
